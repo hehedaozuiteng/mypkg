@@ -1,0 +1,22 @@
+Package: mypkg
+Title: What the Package Does (One Line, Title Case)
+Version: 2.2.2.1111
+Authors@R: 
+    person(given = "Henglin",
+           family = "Huang",
+           role = c("aut", "cre"),
+           email = "hlhuang@uwaterloo.ca",
+           comment = c(ORCID = "YOUR-ORCID-ID"))       
+Description: This package contains a training model Gradient Boosting Regression(GMB). GBM is a learning method that combines many decision trees as the weak predictors. into an ensemble, forming a strong predictor. In this package, we are focus on the Bernoulli distribution, and write a series of tools to improve its accuracy and reduce its running time. Otherwise, we are trying to use control weight of each observations to anti the unbalance dataset. 
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.0
+LinkingTo: 
+    Rcpp
+Imports: 
+    Rcpp,
+    reticulate
+Suggests: 
+    testthat
